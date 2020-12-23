@@ -1,0 +1,41 @@
+.login {
+    height: 100vh;
+    background-color: #F6D166;
+    display: grid;
+    place-items: center;
+}
+
+.login__container {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+
+.login__container>img {
+    object-fit: contain;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.login__container>button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login__container>h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.login__container>p {
+    font-size: 15px;
+    font-weight: 400;
+}

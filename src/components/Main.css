@@ -1,0 +1,12 @@
+.main {
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding: 20px;
+}
+
+.main__container {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}

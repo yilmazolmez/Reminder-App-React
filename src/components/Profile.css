@@ -1,0 +1,19 @@
+.profile {
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.profile__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.profile__info {
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}

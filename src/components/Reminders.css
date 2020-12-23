@@ -1,0 +1,108 @@
+.reminders {
+    flex: 0.7;
+    flex-grow: 1;
+    overflow-y: scroll;
+    padding-bottom: 150px;
+}
+
+.reminders__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.reminders__categoryName {
+    display: flex;
+    text-transform: lowercase;
+    align-items: center;
+}
+
+.reminders__categoryName>.MuiSvgIcon-root {
+    display: flex;
+    text-transform: lowercase;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.reminders__headerRight>p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.reminders__headerRight>p>.MuiSvgIcon-root {
+    margin-right: 5 px !important;
+    font-size: 16px;
+}
+
+.reminders__container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reminders__containerLeft {
+    flex: 0.3;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: #f6d067;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 1px 2px rgba(0, 0, 0, 0.50);
+    margin-bottom: 30px;
+    height: 285px;
+}
+
+.reminders__containerLeft>h1 {
+    text-align: center;
+}
+
+.reminders__containerLeft>form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.reminders__containerLeft>form>label {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.reminders__containerLeft>form>input {
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px;
+    color: gray;
+}
+
+.reminders__containerLeft>form>button {
+    text-transform: inherit !important;
+    background-color: #f0b618 !important;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(255, 187, 62);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.reminders__containerRight {
+    flex: 0.7;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    background-color: #f6d067;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 1px 2px rgba(0, 0, 0, 0.50);
+    margin-bottom: 30px;
+
+}
+
+.reminders__containerRight>h1 {
+    text-align: center;
+}

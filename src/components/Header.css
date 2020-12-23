@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    color: white;
+}
+
+.header__left {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.header__left>h4 {
+    color: black;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header__search {
+    flex: 0.4;
+    display: flex;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    text-align: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 6px;
+
+}
+
+.header__search>input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    min-width: 35vw;
+    color: gray;
+    padding: 10px 0;
+
+}
+
+.header__right {
+    flex: 0.3;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header__right>.MuiSvgIcon-root {
+    margin-left: auto;
+    margin-right: 20px;
+}
