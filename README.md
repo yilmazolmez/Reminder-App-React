@@ -1,3 +1,9 @@
+# Reminder-App-React
+##React.js ile yapmış olduğum hatırlatma uygulamasıdır. Uygulama içinde kategori oluşturup kategorilere göre hatırlatmalar eklenebilir.
+
+![reminder app with react](Screenshot.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
