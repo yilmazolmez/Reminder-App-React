@@ -1,5 +1,5 @@
 # Reminder-App-React
-##React.js ile yapmış olduğum hatırlatma uygulamasıdır. Uygulama içinde kategori oluşturup kategorilere göre hatırlatmalar eklenebilir.
+## React.js ile yapmış olduğum hatırlatma uygulamasıdır. Uygulama içinde kategori oluşturup kategorilere göre hatırlatmalar eklenebilir.
 
 ![reminder app with react](Screenshot.png)
 
